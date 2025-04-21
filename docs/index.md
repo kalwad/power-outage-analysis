@@ -79,7 +79,7 @@ The aggregate table shows the mean duration by cause category. It essentially sh
 
 ### 🧠 Modeling: Predicting the Cause of an Outage
 
-This is a **multiclass classification** problem. We use both a baseline and a tuned model.
+This is a **multiclass classification** problem. I use both a baseline and a tuned model.
 
 #### 🧪 Baseline Model: Logistic Regression
 
