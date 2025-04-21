@@ -37,15 +37,3 @@ Contains:
 
 ---
 
-## Project Structure
-
-```bash
-.
-├── docs/                    # GitHub Pages site source
-│   ├── assets/              # HTML visualizations and tables
-│   ├── index.md             # Website content (Markdown)
-│   └── _config.yml          # Jekyll theme config
-├── template.ipynb           # Full Jupyter Notebook analysis
-├── outage.xlsx              # Raw dataset
-├── lec_utils.py             # Utility functions for styling
-└── README.md                # This file
