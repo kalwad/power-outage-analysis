@@ -30,10 +30,10 @@ This project analyzes major power outages in the U.S. from 2000 to 2016 using a 
 👉 [Project Website](https://kalwad.github.io/power-outage-analysis/)
 
 Contains:
-- 📊 Interactive Plotly charts
-- 🔎 EDA and visual summaries
-- 🧠 ML pipeline and final model
-- ✅ Performance metrics and conclusion
+- Interactive Plotly charts
+- EDA and visual summaries
+- ML pipeline and final model
+- Performance metrics and conclusion
 
 ---
 
