@@ -1,10 +1,10 @@
-# ⚡ Power Outage Cause Prediction (2000–2016)
+# Power Outage Cause Prediction (2000–2016)
 
 This project analyzes major power outages in the U.S. from 2000 to 2016 using a dataset from [Purdue LASCI](https://engineering.purdue.edu/LASCI/research-data/outages). It uses machine learning to predict **cause** of each outage using features that were available to me at the **start** of the outage.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Goal:** Predict cause of major power outages using data in real time
 - **Type:** Multiclass classification using Logistic Regression and Random Forest classifier
@@ -12,7 +12,7 @@ This project analyzes major power outages in the U.S. from 2000 to 2016 using a 
 
 ---
 
-## 🧠 Key Findings
+## Key Findings
 
 | Model                 | Accuracy | Notes |
 |----------------------|----------|-------|
@@ -37,7 +37,7 @@ Contains:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -46,6 +46,6 @@ Contains:
 │   ├── index.md             # Website content (Markdown)
 │   └── _config.yml          # Jekyll theme config
 ├── template.ipynb           # Full Jupyter Notebook analysis
-├── outage.xlsx              # Raw dataset 
+├── outage.xlsx              # Raw dataset
 ├── lec_utils.py             # Utility functions for styling
 └── README.md                # This file

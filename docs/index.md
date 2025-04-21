@@ -1,6 +1,6 @@
-# ⚡ Predicting the Cause of Major U.S. Power Outages (2000–2016)
+# Predicting the Cause of Major U.S. Power Outages (2000–2016)
 
-### 🔍 Overview
+### Overview
 
 **Introduction:**
 This project takes a look at the dataset "Major Power Outage Events in the Continental U.S. (2000–2016)." The dataset has detailed records of large power outages which includes information on their time of occurence,  affected states, outage duration, customers affected, and the cause of the outage. The causes section include severe weather, intentional attack, equipment failure, etc.
@@ -12,7 +12,7 @@ Predicting the causes of power outages is important because it can help utility 
 
 ---
 
-### 💾 Dataset Summary
+### Dataset Summary
 
 **Dataset Overview:**
    - **Relevant Columns for our analysis include:**
@@ -28,7 +28,7 @@ Predicting the causes of power outages is important because it can help utility 
 
 ---
 
-### 🧹 Data Cleaning and EDA
+### Data Cleaning and EDA
 
 After loading in the excel file, dropping unnamed extra columns, and reassiging them to easy-to-read names, I can begin the actual data cleaning.
 
@@ -56,7 +56,7 @@ The aggregate table shows the mean duration by cause category. It essentially sh
 
 ---
 
-### 📊 Visualizations
+### Visualizations
 
 #### 🔸 Outage Duration Distribution
 <iframe src="assets/duration_histogram.html" width="800" height="600" frameborder="0"></iframe>
@@ -77,11 +77,11 @@ The aggregate table shows the mean duration by cause category. It essentially sh
 
 ---
 
-### 🧠 Modeling: Predicting the Cause of an Outage
+### Modeling: Predicting the Cause of an Outage
 
 This is a **multiclass classification** problem. I use both a baseline and a tuned model.
 
-#### 🧪 Baseline Model: Logistic Regression
+#### Baseline Model: Logistic Regression
 
 Next, I will create a baseline model using logisitic regression. The pipeline consists of StandardScaler + multinomial LogisticRegression.
 
@@ -104,7 +104,7 @@ As you can see below, an accuracy of ~82% was acheived, however there was poor r
 
 ---
 
-### 🚀 Final Model: Random Forest with Engineered Features
+### Final Model: Random Forest with Engineered Features
 
  To improve upon the baseline, I engineered two additional features:
 
@@ -134,7 +134,7 @@ Hyperparameters tuned via **GridSearchCV**:
 
 ---
 
-### ✅ Conclusion
+### Conclusion
 
 This project demonstrates that **real-time features** can be used to **reasonably predict cause of a major power outage**. While common causes like *severe weather* are predicted with high accuracy, rare classes are still challenging.
 
@@ -148,7 +148,7 @@ This project demonstrates that **real-time features** can be used to **reasonabl
 
 ---
 
-### 📌 References
+### References
 
 - **Dataset:** [Purdue LASCI Power Outage Dataset](https://engineering.purdue.edu/LASCI/research-data/outages)
 - **GitHub Repo:** [View Code Here](https://github.com/kalwad/power-outage-analysis)
