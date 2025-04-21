@@ -100,7 +100,7 @@ As you can see below, an accuracy of ~82% was acheived, however there was poor r
  **Evaluation Metrics:**
  I can use accuracy as well as precision, recall, and f1-score, macro and weighted averages, to assess the model’s performance.
 
-> Logistic regression showed solid performance but was limited by class imbalance and lack of feature expressiveness.
+> Logistic regression showed pretty good performance but was limited by class imbalance and lack of feature expressiveness.
 
 ---
 
